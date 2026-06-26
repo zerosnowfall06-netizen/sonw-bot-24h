@@ -109,4 +109,4 @@ async def mytime(ctx):
     await ctx.send(f"🕒 <@{user_id}> คุณมีเหรียญสะสมทั้งหมด: **{coins} เหรียญ**\n🕒 สะสมไว้แล้ว: **{hours} ชม. {minutes} นาที**")
 
 # ⚙️ จุดแก้ไขที่ 2: วางรหัสโทเค็น (Token) บอทของคุณตรงนี้
-bot.run('MTUwNDgyODkyMzQwODU1MjA3Nw.GWB6UE.A2wKLfZhv6EZw5xwDmZ3gtoWUojxPv6lt-ZWcc')
+bot.run(os.getenv('DISCORD_TOKEN'))
